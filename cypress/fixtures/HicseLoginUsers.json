@@ -1,0 +1,43 @@
+[
+    {
+      "userEmail": "qa.admin@hitachivantara.com",
+      "password": "test123",
+      "expected": "Sessions"
+    },
+    {
+        "userEmail": "qa.teacher@hitachivantara.com",
+        "password": "test123",
+        "expected": "Sessions"
+      },
+      {
+        "userEmail": "qa.atraineehitachivantara.com",
+        "password": "test123",
+        "expected": "Please enter a valid email"
+      },
+      {
+        "userEmail": "qa.atraineehitachivantara",
+        "password": "test123",
+        "expected": "Please enter a valid email"
+      },
+      {
+        "userEmail": "qa.atrainee@hitachivantara",
+        "password": "test123",
+        "expected": "Please enter a valid email"
+      },
+    {
+      "userEmail": "testus40@hitachivantara.com",
+      "password": "admin123",
+      "expected": "Incorrect e-mail or password. Please try again."
+    },
+    {
+        "userEmail": "testus40@hitachivantara.com",
+        "password": "testing123",
+        "expected": "Incorrect e-mail or password. Please try again."
+      },
+      {
+        "userEmail": "testus40@hitachivantara.com",
+        "password": "tet123",
+        "expected": "Incorrect e-mail or password. Please try again."
+      }
+  ]
+  
